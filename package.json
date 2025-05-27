@@ -16,7 +16,6 @@
     "enum",
     "enums"
   ],
-  "module": "esm",
   "author": "Ant Cosentino <skibz@users.noreply.github.com>",
   "license": "MIT",
   "description": "Prisma generator that creates TypeScript enums from Prisma schema enums",
