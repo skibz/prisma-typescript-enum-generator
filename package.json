@@ -6,7 +6,9 @@
     "build": "tsc -d",
     "clean": "rm -rf ./dist"
   },
-  "bin": "dist/index.js",
+  "bin": {
+    "prisma-typescript-enum-generator": "dist/index.js"
+  },
   "keywords": [
     "prisma",
     "generator",
