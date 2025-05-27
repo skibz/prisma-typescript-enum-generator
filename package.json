@@ -23,6 +23,6 @@
     "@prisma/generator-helper": "6.8.2"
   },
   "devDependencies": {
-    "ts-node": "10.9.2"
+    "ts-node": "^10.9.2"
   }
 }
