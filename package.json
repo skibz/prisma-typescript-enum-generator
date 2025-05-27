@@ -1,0 +1,27 @@
+{
+  "name": "prisma-typescript-enum-generator",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -d",
+    "clean": "rm -rf ./dist"
+  },
+  "bin": "dist/index.js",
+  "keywords": [
+    "prisma",
+    "generator",
+    "typescript",
+    "enum",
+    "enums"
+  ],
+  "module": "esm",
+  "author": "Ant Cosentino <skibz@users.noreply.github.com>",
+  "license": "MIT",
+  "description": "Prisma generator that creates TypeScript enums from Prisma schema enums",
+  "dependencies": {
+    "@prisma/generator-helper": "6.8.2"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.2"
+  }
+}

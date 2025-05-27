@@ -1,0 +1,2 @@
+
+# prisma-typescript-enum-generator
