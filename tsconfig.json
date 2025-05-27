@@ -5,8 +5,15 @@
     "baseUrl": "src",
     "outDir": "dist",
     "sourceMap": false,
-    "module": "CommonJS",
+    "module": "NodeNext",
     "strict": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
   }
 }

@@ -3,9 +3,9 @@
 import fs from "fs";
 import path from "path";
 
-import gh from '@prisma/generator-helper';
+import { generatorHandler } from '@prisma/generator-helper';
 
-gh.generatorHandler({
+generatorHandler({
   onManifest() {
     return {
       defaultOutput: './generated-enums',
