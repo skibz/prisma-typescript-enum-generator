@@ -2,7 +2,6 @@
 
 import fs from "fs";
 import path from "path";
-import pkg from "../package.json";
 
 import { generatorHandler } from '@prisma/generator-helper';
 
@@ -11,7 +10,7 @@ generatorHandler({
     return {
       defaultOutput: './enums.ts',
       prettyName: 'Prisma TypeScript Enum Generator',
-      version: pkg.version,
+      version: '1.0.1',
     };
   },
 
