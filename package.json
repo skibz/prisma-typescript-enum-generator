@@ -7,7 +7,7 @@
     "clean": "rm -rf ./dist"
   },
   "bin": {
-    "prisma-typescript-enum-generator": "dist/index.js"
+    "prisma-typescript-enum-generator": "dist/src/index.js"
   },
   "keywords": [
     "prisma",
